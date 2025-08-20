@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace eShift.Models
+namespace Kios.Models
 {
     // Represents a branch office
     public class Branch

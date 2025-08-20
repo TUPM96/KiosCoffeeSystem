@@ -23,17 +23,8 @@ const { Sider } = Layout;
 const menuItems = [
   { key: 'dashboard', icon: <DotChartOutlined />, label: 'Dashboard', path: '/dashboard' },
   { key: 'admins', icon: <UserOutlined />, label: 'Admins', path: '/admins' },
-  { key: 'assistants', icon: <TeamOutlined />, label: 'Assistants', path: '/assistants' },
-  // { key: 'branches', icon: <ShopOutlined />, label: 'Branches', path: '/branches' },
+   { key: 'branches', icon: <ShopOutlined />, label: 'Branches', path: '/branches' },
   { key: 'city', icon: <EnvironmentOutlined />, label: 'City', path: '/city' },
-  // { key: 'containers', icon: <InboxOutlined />, label: 'Containers', path: '/containers' },
-  { key: 'clients', icon: <SolutionOutlined />, label: 'Clients', path: '/customers' },
-  { key: 'drivers', icon: <CarOutlined />, label: 'Drivers', path: '/drivers' },
-  { key: 'jobs', icon: <FileDoneOutlined />, label: 'Jobs', path: '/jobs' },
-  { key: 'jobstops', icon: <PartitionOutlined />, label: 'Job Stops', path: '/stops' },
-  { key: 'trip', icon: <CompassOutlined />, label: 'Trip', path: '/trip' },
-  // { key: 'load', icon: <AppstoreOutlined />, label: 'Load', path: '/load' },
-  { key: 'lorry', icon: <TruckOutlined />, label: 'Lorry', path: '/lorry' },
 ];
 
 
@@ -47,8 +38,8 @@ const SideNav = () => {
   // Admin authentication check
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const admin = localStorage.getItem('eshiftAdmin');
-      const customer = localStorage.getItem('eshiftCustomer');
+      const admin = localStorage.getItem('kiosAdmin');
+      const customer = localStorage.getItem('kiosCustomer');
       if (customer && !admin) {
         // If a normal user is logged in, redirect to user dashboard
         router.replace('/user');

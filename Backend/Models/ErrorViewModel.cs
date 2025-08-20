@@ -1,4 +1,4 @@
-namespace eShift.Models;
+namespace Kios.Models;
 
 public class ErrorViewModel
 {

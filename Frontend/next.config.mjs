@@ -7,9 +7,10 @@ const nextConfig = {
   transpilePackages: [
     'rc-util',
     'rc-table',
-    "rc-picker",
-    "rc-pagination",
-    "@ant-design/icons-svg"
+    'rc-picker',
+    'rc-pagination',
+    'rc-input',
+    '@ant-design/icons-svg'
   ]
 };
 

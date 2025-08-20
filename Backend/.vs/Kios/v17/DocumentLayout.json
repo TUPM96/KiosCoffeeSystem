@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\data\\kiosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:data\\kiosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\apidocument.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:apidocument.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|c:\\users\\mai hieu\\desktop\\kioscoffeesystem\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A54EC400-6CA5-DDC8-5710-AFE5FF92377D}|Kios.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "Models\\Branch.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Models\\Branch.cs",
+              "RelativeToolTip": "Models\\Branch.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA4wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T10:02:41.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:57:29.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAawFIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:49:48.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BranchController.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Controllers\\BranchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BranchController.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Controllers\\BranchController.cs",
+              "RelativeToolTip": "Controllers\\BranchController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:49:46.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:41:36.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "apiDocument.json",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\apiDocument.json",
+              "RelativeDocumentMoniker": "apiDocument.json",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\apiDocument.json",
+              "RelativeToolTip": "apiDocument.json",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T09:28:44.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KiosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Data\\KiosDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\KiosDbContext.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Data\\KiosDbContext.cs",
+              "RelativeToolTip": "Data\\KiosDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:34:37.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAABRwCAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T09:34:56.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Mai Hieu\\Desktop\\KiosCoffeeSystem\\Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-20T09:28:42.081Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

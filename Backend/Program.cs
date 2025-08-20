@@ -1,18 +1,18 @@
-using Microsoft.EntityFrameworkCore;
-using eShift.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using Kios.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddControllers();
-builder.Services.AddScoped<Microsoft.AspNetCore.Identity.IPasswordHasher<eShift.Models.Customer>, Microsoft.AspNetCore.Identity.PasswordHasher<eShift.Models.Customer>>();
-builder.Services.AddDbContext<eShift.Data.EShiftDbContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+
+builder.Services.AddDbContext<Kios.Data.KiosDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
     ));
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddCors(options =>
 {
@@ -26,10 +26,11 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Pipeline
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();       
+    app.UseSwaggerUI();        
 }
 
 app.UseCors();

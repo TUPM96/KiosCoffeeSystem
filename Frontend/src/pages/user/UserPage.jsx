@@ -1,13 +1,10 @@
 
 import Link from 'next/link';
 import React from 'react';
-import JobCard from './components/JobCard';
 import { DeleteFilled, EditFilled, EyeFilled, PlusOutlined } from '@ant-design/icons';
 import { Row, Col, Avatar, Modal, Button, Popover } from 'antd';
 import apiExecutions from '../api/apiExecutions';
 import { toast, ToastContainer } from 'react-toastify';
-import JobPathMap from '../jobs/JobPathMap';
-import CreateJob from '../jobs/createJob';
 
 const UserPage = () => {
 
@@ -19,12 +16,12 @@ const UserPage = () => {
 
     let userData = null;
     if (typeof window !== 'undefined') {
-        userData = localStorage.getItem('eshiftCustomer') ? JSON.parse(localStorage.getItem('eshiftCustomer')) : null;
+        userData = localStorage.getItem('kiosCustomer') ? JSON.parse(localStorage.getItem('kiosCustomer')) : null;
     }
 
     React.useEffect(() => {
         if (typeof window !== 'undefined') {
-            const customer = localStorage.getItem('eshiftCustomer');
+            const customer = localStorage.getItem('kiosCustomer');
             if (!customer) {
                 window.location.href = '/auth/customer';
             }
@@ -136,7 +133,7 @@ const UserPage = () => {
                                 className='textStyle-small' 
                                 style={{ borderRadius: 10, marginTop: 10 }}
                                 danger block size="small" onClick={() => {
-                                    localStorage.removeItem('eshiftCustomer');
+                                    localStorage.removeItem('kiosCustomer');
                                     window.location.href = '/auth/customer';
                                 }}>Logout</Button>
                             </div>

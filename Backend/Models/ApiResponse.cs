@@ -1,6 +1,6 @@
 using System;
 
-namespace eShift.Models
+namespace Kios.Models
 {
     public class ApiResponse<T>
     {

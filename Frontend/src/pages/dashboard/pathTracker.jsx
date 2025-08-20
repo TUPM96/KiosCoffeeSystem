@@ -4,10 +4,6 @@ import dynamic from "next/dynamic";
 import { Card, Spin, List } from "antd";
 import apiExecutions from "../api/apiExecutions";
 
-// SSR-safe import for map preview
-const JobPathMap = dynamic(() => import("../../pages/jobs/JobPathMap"), { ssr: false });
-
-
 const PathTracker = () => {
   const [jobs, setJobs] = useState([]);
   const [loadingJobs, setLoadingJobs] = useState(true);
@@ -81,7 +77,6 @@ const PathTracker = () => {
           </div>
         )}
       </div> */}
-      <JobPathMap stops={stops} />
     </div>
   );
 };

@@ -1,24 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using eShift.Data;
-using eShift.Models;
+using Kios.Data;
+using Kios.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace eShift.Controllers
+namespace Kios.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class CityController : ControllerBase
     {
-        private readonly EShiftDbContext _context;
+        private readonly KiosDbContext _context;
         private readonly ILogger<CityController> _logger;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public CityController(EShiftDbContext context, ILogger<CityController> logger, IHttpContextAccessor httpContextAccessor)
+        public CityController(KiosDbContext context, ILogger<CityController> logger, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _logger = logger;

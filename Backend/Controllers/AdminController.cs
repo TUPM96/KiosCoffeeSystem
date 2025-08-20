@@ -1,24 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using eShift.Data;
-using eShift.Models;
+using Kios.Data;
+using Kios.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 
-namespace eShift.Controllers
+namespace Kios.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AdminController : ControllerBase
     {
-        private readonly EShiftDbContext _context;
+        private readonly KiosDbContext _context;
         private readonly ILogger<AdminController> _logger;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public AdminController(EShiftDbContext context, ILogger<AdminController> logger, IHttpContextAccessor httpContextAccessor)
+        public AdminController(KiosDbContext context, ILogger<AdminController> logger, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _logger = logger;

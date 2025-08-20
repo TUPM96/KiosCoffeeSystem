@@ -1,16 +1,14 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace eShift.Models
+namespace Kios.Models
 {
-    // Represents an administrator user in the system
     public class Admin
     {
         [Key]
         public int AdminId { get; set; }
 
-        // Foreign key to Branch
         public int? BranchId { get; set; }
         [ForeignKey("BranchId")]
         public Branch? Branch { get; set; }
@@ -38,7 +36,8 @@ namespace eShift.Models
         [Required, StringLength(50)]
         public string Role { get; set; } = "BRANCH_ADMIN";
 
-        [Column(TypeName = "timestamp")]
+        // Sửa lại cho đúng kiểu ngày giờ
+        [Column(TypeName = "datetime2")]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }
