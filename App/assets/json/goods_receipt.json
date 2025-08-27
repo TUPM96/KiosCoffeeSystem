@@ -1,0 +1,42 @@
+[
+  {
+    "markingCode": "GTC/QTINE",
+    "receivingNumber" : "GG:0022089",
+    "productTitle": "Clothes",
+    "containerNumber": "F020",
+    "dateTime": "Friday, 02-05-2023 16:45",
+    "notes": "Kurang asam sedikit",
+    "quantity": 30,
+    "id": 1
+  },
+  {
+    "markingCode": "GTC/QTINE",
+    "receivingNumber" : "GG:0022016",
+    "productTitle": "Clothes",
+    "containerNumber": "F019",
+    "dateTime": "Thursday, 01-05-2023 16:45",
+    "notes": "",
+    "quantity": 13,
+    "id": 2
+  },
+  {
+    "markingCode": "GTC/QTINE",
+    "receivingNumber" : "GG:0023674",
+    "productTitle": "Perfume",
+    "containerNumber": "F018",
+    "dateTime": "Wednesday, 30-04-2023 16:45",
+    "notes": "",
+    "quantity": 5,
+    "id": 3
+  },  
+  {
+    "markingCode": "GTC/QTINE",
+    "receivingNumber" : "GG:0067345",
+    "productTitle": "Engine",
+    "containerNumber": "F017",
+    "dateTime": "Tuesday, 29-04-2023 16:45",
+    "notes": "Kelebihan barang 15 qc",
+    "quantity": 20,
+    "id": 4
+  }
+]

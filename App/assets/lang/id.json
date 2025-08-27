@@ -1,0 +1,30 @@
+{
+  "login_start": "Below are list of strings for login da ",
+  "login_title": "Selamat datang!",
+  "login_subtitle": "Silahkan masukkan email dan password anda",
+  "login_et_user_email": "Brugernavn",
+  "login_et_user_password": "Adgangskode",
+  "login_btn_remember_me": "Ingatkan saya",
+  "login_btn_sign_in": "Log ind",
+  "login_error_fill_fields": "Udfyld venligst alle felterne",
+  "login_end": "------------------------------------------------------------------------------------",
+
+  "misc_receipt": "Penerimaan",
+  "misc_container": "Container Data",
+  "misc_shipment": "Pengiriman Mendatang",
+  "misc_profile": "Profil",
+
+  "home_start": "Below are list of strings for home",
+  "home_shipment": "Penerimaan Barang",
+  "home_container": "Container Data",
+  "home_container_detail": "Container",
+  "home_upcoming_shipment": "Pengiriman Mendatang",
+  "home_tv_error": "Fejl",
+  "home_tv_no_post_found": "Ingen indlæg fundet",
+  "home_tv_choose_language": "Vælg sprog",
+  "home_end": "-------------------------------------------------------------------------------------",
+  "add_receipt": "Tambah Penerimaan Barang",
+  "home_profile": "Profil",
+  "empty_container": "Belum ada barang yang tersedia",
+  "success_delete": "Sukses menghapus data"
+}

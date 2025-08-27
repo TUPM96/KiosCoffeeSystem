@@ -1,0 +1,32 @@
+{
+  "containerList": [
+    {
+      "containerNumber": "F020",
+      "items": 4,
+      "quantity": 30,
+      "dateTime": "Friday, 02-05-2023 16:45",
+      "id": 1
+    },
+    {
+      "containerNumber": "F019",
+      "items": 8,
+      "quantity": 30,
+      "dateTime": "Friday, 02-05-2023 16:45",
+      "id": 2
+    },
+    {
+      "containerNumber": "F018",
+      "items": 4,
+      "quantity": 30,
+      "dateTime": "Friday, 02-05-2023 16:45",
+      "id": 3
+    },
+    {
+      "containerNumber": "F017",
+      "items": 2,
+      "quantity": 30,
+      "dateTime": "Friday, 02-05-2023 16:45",
+      "id": 4
+    }
+  ]
+}
